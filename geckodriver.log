@@ -1,0 +1,25 @@
+1664869847375	geckodriver	INFO	Listening on 127.0.0.1:58411
+1664869853472	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58412" "-no-remote" "-profile" "C:\\Users\\hp\\AppData\\Local\\Temp\\rust_mozprofileOG2Pko"
+1664869858808	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\hp\\AppData\\Local\\Temp\\rust_mozprofileOG2Pko\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+DevTools listening on ws://localhost:58412/devtools/browser/6eea815a-3f9c-4709-94a6-f86dca69e4af
+1664869874794	Marionette	INFO	Listening on port 58424
+1664869875114	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3i0aQ4/yr/l/en_US/feen_MxfEMz.js?_nc_x=Ij3Wp8lg5Kz, line 1210: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3i0aQ4/yr/l/en_US/feen_MxfEMz.js?_nc_x=Ij3Wp8lg5Kz, line 1210: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3i0aQ4/yr/l/en_US/feen_MxfEMz.js?_nc_x=Ij3Wp8lg5Kz, line 1210: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iqcA4/y_/l/en_US/WaEQmpOY5kD.js?_nc_x=Ij3Wp8lg5Kz, line 38: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1664869985075	Marionette	INFO	Stopped listening on port 58424
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1664870001669	geckodriver	INFO	Listening on 127.0.0.1:58589
+1664870004288	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58590" "-no-remote" "-profile" "C:\\Users\\hp\\AppData\\Local\\Temp\\rust_mozprofileRmWwRS"
+1664870007294	Marionette	INFO	Marionette enabled
